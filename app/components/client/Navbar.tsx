@@ -48,7 +48,7 @@ export default function Navbar() {
         <div className="container mx-auto px-4">
             <div className="flex justify-between items-center">
                 <Link href="/" className={`${jetbrainsMono.className} text-2x1 font-bold text-[#3D0C11] transition-all duration-300 hover-scale-105`}>
-                  Modia
+                 Ayanokoji
                 </Link>
 
                 <div className="hidden md:flex space-x-8 items-center">
@@ -105,7 +105,7 @@ export default function Navbar() {
                         !isScrolled && "bg-white/10 backdrop-blur-sm hover:bg-white/20", "hover:scale-105"
                     )}
                     >
-                        Get Started
+                       Are you Ready?
                     </Button>
                 </div>
 
