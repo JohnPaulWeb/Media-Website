@@ -19,8 +19,6 @@ const stats: Statistic[] = [
 
 
 
-
-
 export default function Stats() {
 
     const { ref, inView } = useInView({
@@ -29,6 +27,7 @@ export default function Stats() {
     })
 
     return (
+
         <section ref={ref} className="py-24 bg-white">
             <div className="container mx-auto px-4">
                  <div className="flex flex-col lg:flex-row gap-16 items-start">
@@ -71,7 +70,7 @@ Kiyotaka Ayanokōji (綾あやの小こう路じ 清きよ隆たか, Ayanokōji 
                         "relative h-80 rounded-2xl overflow-hidden transition-all duration-700 delay-700", inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
                     )}>
 
-                        <Image src="/Itoshi Rin.jpg" fill className="object-cover transition-transform duration-700 hover:scale-110" />
+                        <Image src="/ayano.jpg" fill className="object-cover transition-transform duration-700 hover:scale-110" />
 
                     </div>
                     </div>

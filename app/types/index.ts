@@ -8,7 +8,7 @@ export interface Property {
     image: string
     bedrooms: number
     bathrooms: number
-    are: number
+    area: number
     type: string
     status?: "active" | "active"
     createdAt: string

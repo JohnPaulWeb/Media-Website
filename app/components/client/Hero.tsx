@@ -19,7 +19,7 @@ export default function Hero() {
             
             <div className="absolute inset-0"
              style={{ 
-                backgroundImage: "url('https://i.pinimg.com/736x/39/1b/38/391b381ba58e3792c82000564999c2f4.jpg')",
+                backgroundImage: "url('Itoshi Rin.jpg')",
                 WebkitBackgroundSize: 'cover',
                 backgroundPosition: 'center',
                 transform: `translateY(${offset * 0.5}px)`,
