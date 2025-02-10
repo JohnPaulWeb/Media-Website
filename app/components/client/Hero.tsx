@@ -25,7 +25,7 @@ export default function Hero() {
                 transform: `translateY(${offset * 0.5}px)`,
               }}
             >
-
+                
                 <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/60 to-transparent" />
             </div>
 

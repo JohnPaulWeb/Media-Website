@@ -4,6 +4,7 @@ import { Property } from "@/app/types"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import Image from "next/image"
+import Link from "next/link"
 import { useInView } from "react-intersection-observer"
 
 
@@ -18,6 +19,7 @@ const properties: Property[] = [
         bathrooms: 2,
         area: 1200,
     },
+
     {   
         id: '2',
         title: 'Ayanokoji',
@@ -28,6 +30,7 @@ const properties: Property[] = [
         bathrooms: 2,
         area: 1200,
     },
+
     {
         id: '3',
         title: 'Ayanokoji',
@@ -38,6 +41,7 @@ const properties: Property[] = [
         bathrooms: 2,
         area: 1200,
     },
+    
 ]
 
 export default function Properties() {
@@ -85,11 +89,15 @@ export default function Properties() {
                     ))}
                 </div>
                 <div className={cn(
-                    "text-center mt-12"
+                    "text-center mt-12 transition-all duration-700 delay-500", inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
                 )}>
+
+                    <Link href="/properties">
+                      <Button size="lg" className="bg-[#3D0C11] hover:bg-[#2D090D] text-white">View More?</Button>
+                    </Link>
 
                 </div>
             </div>
         </section>
     )
-}
+} 
