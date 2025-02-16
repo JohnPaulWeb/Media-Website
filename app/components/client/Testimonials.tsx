@@ -1,5 +1,10 @@
 
-
+const testimonials = [
+    {
+        quote: "Life can be ",
+        author: 'Ayanokoji'
+    }
+]
 
 
 
