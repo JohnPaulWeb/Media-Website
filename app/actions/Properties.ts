@@ -31,4 +31,6 @@ export async function addProperty(formData: FormData) {
 }
 
 
-export async function updateProperty
+export async function updateProperty(id: string, formData: FormData) {
+    // Properties = Properties.map
+}
